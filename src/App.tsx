@@ -1,12 +1,14 @@
 import React from 'react';
 
+import { Container } from 'react-bootstrap';
+
 import './App.scss';
 
 function App() {
   return (
-    <div>
-      Starting the app here
-    </div>
+      <Container fluid>
+
+      </Container>
   );
 }
 
