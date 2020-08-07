@@ -58,12 +58,12 @@ function App() {
     return (
         <Container fluid key={reloadkey}>
             <Row className="border-top mt-2">
-                <Col>
+                <Col md={12} lg={true}>
                     <HouseWinning inputValues={inputValues}/>
                     <div className="mt-3 pt-3 border-top"/>
                     <Game1 inputValues={inputValues}/>
                 </Col>
-                <Col>
+                <Col md={12} lg={true}>
                     <InputFields setInputValues={setInputValues} values={inputValues}/>
                     <div className="mt-5 border-top text-right">
                         <Button size="lg" variant="dark" onClick={(e) => {
